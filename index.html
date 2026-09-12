@@ -218,15 +218,15 @@ function recommendCard(type) {
 
     } else if (type === "sas") {
 
-        card = "SAS Mastercard";
+        card = "SAS Gift card";
 
         const active =
             isWithinPeriods(doublePointPeriods) ||
             isWithinPeriods(doublePointPeriodsSAS);
 
         reason = active
-            ? "Active SAS.no double-points promotion."
-            : "SAS tickets should always use SAS Mastercard.";
+            ? "Buy SAS gift card with SAS Mastercard."
+            : "Buy SAS gift card with AMEX.";
 
     } else if (type === "norwegian") {
 
